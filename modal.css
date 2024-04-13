@@ -1,0 +1,221 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s ease;
+}
+
+.dialog-box {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 70px;
+    position: relative;
+    gap:10%;    
+
+}
+.close-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.product-image {
+    width: 40%;
+    border: 2px solid black;
+
+}
+.product-details h2 {
+    margin-top: 0;
+}
+.product-details p {
+    margin: 10px 0;
+    font-weight: bolder;
+}
+.product-details .btns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+.product-details .btns button:nth-child(1) {
+    border: 1px solid red;
+    background-color: rgb(255, 0, 0,0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 200px;
+}
+.product-details .btns button:nth-child(2) {
+    margin-top: 5%;
+    border: 1px solid #1c1d1d;
+    background-color: #1c1d1d;
+    color: white;
+    padding: 10px;
+    border-radius: 200px;
+}
+.product-details .btns button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* WISHLIST DIALOG BOX  */
+.overlay-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    z-index: 9999;
+    display: none;
+}
+.wishlist-dialog-boxContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px; /* Adjust width as needed */
+    height: 100%;
+    background-color: white;
+    z-index: 10000;
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    display: none;
+    padding: 1%;
+    width: 30%;
+    border-left: 4px solid rgb(255, 0, 0,0.6);    
+}
+/* Styling for close button of wishlist*/
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.wishlist-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wishlist-container .wishlist-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 5%;
+}
+.wishlist-container .wishlist-item:hover {
+    border:1px solid red;
+}
+.wishlist-dialog-boxContainer .wishlist-container .wishlist-item img {
+    width: 50%;
+}
+.wishlist-detailsButton {
+    margin-top: 5%;
+    border: 1px solid #1c1d1d;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 200px;
+    width: 50%;
+}
+.wishlist-detailsButton:hover {
+    background-color: white;
+    color: black;
+}
+.wishlist-deleteButton {
+    margin-top: 5%;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 200px;
+    width: 50%;
+
+}
+.wishlist-deleteButton:hover {
+    background-color: white;
+    color: black;
+}
+#buy-formitem1, #buy-formitem2, #buy-formitem3, #buy-formitem4
+,#buy-formitem5, #buy-formitem6, #buy-formitem7, #buy-formitem8 {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: -1;
+    
+}
+#fill-heading {
+    font-size: 1rem;
+    margin-bottom: -5%;
+}
+.buy-form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.buy-form input {
+    border: 1px solid black;
+    outline: none;
+    padding: 5px;
+    margin-top: 5%;
+}
+.buy-form input::placeholder {
+    color: gray;
+}
+.buy-form input:focus {
+    border: 1px solid red;
+}
+.buy-form .buttons {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.quantity-container {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.quantity-container label {
+    margin-right: 5%;
+}
+.quantity-input button {
+    background-color: black;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: white;
+}
+.quantity-input button:hover {
+    background-color: white;
+    color: black;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#quantity1,#quantity2,#quantity3,#quantity4,#quantity5, #quantity6, #quantity7, #quantity8 {
+    width: 25%;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px;
+    border: 1px solid red;
+}

@@ -1,0 +1,88 @@
+@keyframes slideUp {
+    from {
+        transform: translateY(200px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+    
+}
+@keyframes slideDown {
+    from {
+        transform: translateY(-200px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+    
+}
+@keyframes slideRight {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+    
+}
+@keyframes slideLeft {
+    from {
+        transform: translateX(200px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+    
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+    
+}
+@keyframes closeWishlist {
+    from{
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(700px);
+    }
+    
+}
+@keyframes closebuyForm {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-700px);
+    }
+}
+@keyframes closeRight {
+    from{
+        transform:translateX(0%);
+    }
+     to {
+        transform: translateX(23%);
+     }
+}
+
+@keyframes jump {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
+    
+}

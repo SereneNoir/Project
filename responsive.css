@@ -1,0 +1,116 @@
+/* FOR LOW WIDTH LAPTOPS */
+@media (max-width:1300px) {
+    .img-txt a {
+        font-size: 0.6rem;
+    }
+    .dialog-box {
+        padding: 40px;
+        top: 10%;
+    }
+    #buy-formitem1,  #buy-formitem2,  #buy-formitem3,  #buy-formitem4,  #buy-formitem5,
+    #buy-formitem6,  #buy-formitem7, #buy-formitem8 {
+        margin-top: 10%;
+        width: 25%;
+    }
+}
+
+@media (max-width : 450px) {
+
+    /* Landing page part */
+    
+    #homepage {
+        width: 468px;
+        height: 740px;
+        background-image: url(https://i.ibb.co/1LHD3hk/we2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .top {
+        width: 170%;
+    }
+
+    .top img {
+        display: none;
+    }
+    
+    .text {
+        display: none;
+    }
+
+    .replacement-text {
+        display: block;
+        text-align: center;
+    }
+
+    .replacement-text h1 {
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .replacement-text h2 {
+        color: white;
+        font-size: 1.3rem;
+    }
+
+    .container {
+        height: auto;
+    }
+    .mid {
+        margin-top: 5rem;
+    }
+
+    .name h1 {
+        font-size: 1rem;
+    }
+    .mid {
+        width: 170%;
+    }
+    .mid #visit, #newAcc{ 
+        padding: 10px 28px;
+        border-color: white;
+        color: white;
+    }
+
+    .name span {
+        font-size: 3rem;
+    }
+
+
+    /* The other part */
+
+    #storepage{
+        width: 468px;
+        height: auto;
+        padding: 1.5rem;
+    }
+
+    .store-top {
+        display: block;
+    }
+
+    .store-img {
+        width: 100%;
+    }
+    .store-des {
+        width: 100%;
+        text-align: center;
+    }
+    .store-des h2 {
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .store-des p {
+        font-size: 1.2rem;
+    }
+
+    .decs {
+        width: 50%;
+    }
+    .store-bottom .third {
+        display: none;
+    }
+}
+
+

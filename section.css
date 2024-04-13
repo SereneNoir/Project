@@ -1,0 +1,64 @@
+#homepage{
+    /* height: 94vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    padding: 100px;
+}
+#storepage{
+   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    color: #1c1d1d;
+}
+#store{
+   
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    color: #1c1d1d;
+   
+}
+#store-display{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    color: #1c1d1d;
+}
+#footer{
+    padding: 50px;
+    background-color: #1c1d1d;
+}
+#new-arrivals{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mens{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#womens{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#team-page{
+    margin-top: 5%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

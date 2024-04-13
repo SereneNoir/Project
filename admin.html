@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="admin.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="side-panel">
+      <h1>Admin Panel</h1>
+      <div class="panel-nav">
+        <a href="#manage-products"> 
+            <div class="nav-content"><i class="fa-solid fa-box"></i> Manage Products</div>
+        </a>
+        <hr>
+        <a href="#customer-reviews">
+            <div class="nav-content"><i class="fa-solid fa-comment-dots"></i> Customer Reviews</div>
+        </a>
+        <hr>
+        <a href="#">
+            <div class="nav-content"><i class="fa-solid fa-paper-plane"></i> Send Newsletters</div>
+        </a>
+        <hr>
+        <a href="#">
+            <div class="nav-content"><i class="fa-solid fa-file-lines"></i> Documentation</div>
+        </a>
+      </div>
+      <!-- Add more links as needed -->
+    </div>
+
+    <div class="main-content">
+      <div class="admin-home">
+        <h1><span class="highlight-text">Urban</span> Aura</h1>
+      </div>
+
+      <section id="manage-products">
+        <div class="product-list">
+            <h1>Manage Products</h1>
+            <div class="search-products">
+                <input type="text">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="add-product">
+                <button id="addnewproduct" onclick="displayAddProduct()">Add a New Product</button>
+            </div>
+            <form action="" id="addnewproductform">
+            <div class="new-product">
+                    <input type="text" placeholder="Product Name" id="product-name">
+                    <input type="text" placeholder="Product Price" id="product-price">
+                    <button onclick="addProduct()">Add  </button>
+
+            </div>
+        </form>
+            <div class="list-item">
+                <p><i class="fa-solid fa-list"></i> All Products</p>
+            </div>
+            <div class="products-column">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <div class="product-info">
+                    <div class="product-title">Oldest Product</div>
+                    <div class="product-price">$19.99</div>
+                </div>
+                <div class="manage-buttons">
+                <button class="update-btn"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+                <button class="delete-btn"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Product 2</div>
+                    <div class="product-price">$29.99</div>
+                </div>
+                <div class="manage-buttons">
+                <button class="update-btn"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+                <button class="delete-btn"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Product 2</div>
+                    <div class="product-price">$29.99</div>
+                </div>
+                <div class="manage-buttons">
+                <button class="update-btn"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+                <button class="delete-btn"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Product 2</div>
+                    <div class="product-price">$29.99</div>
+                </div>
+                <div class="manage-buttons">
+                <button class="update-btn"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+                <button class="delete-btn"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Product 2</div>
+                    <div class="product-price">$29.99</div>
+                </div>
+                <div class="manage-buttons">
+                <button class="update-btn"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+                <button class="delete-btn"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Product 2</div>
+                    <div class="product-price">$29.99</div>
+                </div>
+                <div class="manage-buttons">
+                <button class="update-btn"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+                <button class="delete-btn"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Product 2</div>
+                    <div class="product-price">$29.99</div>
+                </div>
+                <div class="manage-buttons">
+                <button class="update-btn"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+                <button class="delete-btn"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <div class="product-info">
+                    <div class="product-title">Latest Product</div>
+                    <div class="product-price">$29.99</div>
+                </div>
+                <div class="manage-buttons">
+                <button class="update-btn"><i class="fa-solid fa-pen-to-square"></i> Update</button>
+                <button class="delete-btn"><i class="fa-solid fa-trash"></i> Delete</button>
+                </div>
+            </div>
+    </div>
+            <!-- Add more product entries as needed -->
+    
+        </div>
+      </section>
+
+      <section id="customer-reviews">
+        <div class="review-container">
+            <div class="review-content">
+            <h1>Customer Reviews</h1>
+            </div>
+        </div>
+      </section>
+    </div>
+    <script src="admin.js"></script>
+  </body>
+</html>
