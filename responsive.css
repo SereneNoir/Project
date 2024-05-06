@@ -14,12 +14,18 @@
     }
 }
 
+@media (max-width: 370px) {
+    .hlinks {
+        flex-direction: column;
+    }
+}
 @media (max-width : 450px) {
 
     /* Landing page part */
     
     #homepage {
-        width: 468px;
+        /* width: 450px; */
+        width: auto;
         height: 740px;
         background-image: url(https://i.ibb.co/1LHD3hk/we2.jpg);
         background-position: center;
@@ -81,7 +87,8 @@
     /* The other part */
 
     #storepage{
-        width: 468px;
+        /* width: 450px; */
+        width: auto;
         height: auto;
         padding: 1.5rem;
     }
@@ -105,12 +112,100 @@
         font-size: 1.2rem;
     }
 
+
+    .store-bottom {
+        margin-top: 1rem;
+    }
     .decs {
         width: 50%;
+        padding: 10px;
+    }
+    .paraaa {
+        margin-top: 1rem;
+
     }
     .store-bottom .third {
         display: none;
     }
+
+    .desc-title .fa-solid {
+        font-size: 1rem;
+    }
+    .desc-title i{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .desc-title h3 {
+        text-align: center;
+    }
+
+    /* Another part I guess */
+    
+    #store-display {
+        height: auto;
+        width: auto;
+        background-image: url(https://i.ibb.co/1XnHtF7/sss.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .res-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 300px;
+
+    }
+    .res-text h2 {
+        color: black;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .res-text .ichi {
+        color: gold;
+    }
+
+    .clothes {
+        display: none;
+    }
+
+
+    /* The products part */
+
+    #new-arrivals {
+        height: auto;
+        width: 450px;
+    }
+
+
 }
 
 
+
+@media (max-width: 768px) {
+    
+    /* Landing page part */
+
+    #homepage {
+        width: auto;
+    }
+
+    .name h1 {
+        font-size: 2.5rem;
+    }
+
+} 
+
+@media (max-width: 719px) {
+    
+    .name h1 {
+        font-size: 2rem;
+    }   
+
+    .text h2 {
+        font-size: 1.3rem;
+    }
+    
+}
