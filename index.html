@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Urban Aura: Upgrade Your Wardrobe</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="section.css">
@@ -127,7 +131,7 @@
                             <i class="fa-solid fa-face-smile" style="color: #000000;"></i>
                             <h3>Exquisite Collection For Every Taste</h3>
                         </div>
-                        <p>
+                        <p class="paraaa">
                             Each piece is a celebration of timeless elegance and contemporary trends, ensuring your
                             wardrobe is a canvas of redefined taste.
                         </p>
@@ -135,9 +139,9 @@
                     <div class="decs second">
                         <div class="desc-title">
                             <i class="fa-solid fa-shirt" style="color: #000000;"></i>
-                            <h3>Made with Superior Materials</h3>
+                            <h3>Made with high quality Superior Materials</h3>
                         </div>
-                        <p>
+                        <p class="paraaa">
 
                             Experience the sensation of arriving
                             on time. Our efficient delivery system
@@ -175,6 +179,9 @@
             </div>
         </section> -->
         <section id="store-display">
+            <div class="res-text">
+                <h2>Get the <span class="ichi">Urban</span> Look</h2>
+            </div>
             <div class="clothes">
                 <div class="upper display">
                     <div class="img-con1">
@@ -213,66 +220,71 @@
         <section id="new-arrivals">
             <div class="new-arrivals">
 
-                <div class="sec">
-                    <div class="box">
-                        <div class="img-con">
-                            <img src="https://i.ibb.co/9hzFjnC/s3.png" alt="s3" border="0">
-                            <div class="img-txt">
-                                <a onclick="openDialog1('1')"><i class="fa-solid fa-circle-info"></i> View details</a>
+                <div class="sec swiper">
+                    
+                        <div class="box ">
+                            <div class="img-con">
+                                <img src="https://i.ibb.co/9hzFjnC/s3.png" alt="s3" border="0">
+                                <div class="img-txt">
+                                    <a onclick="openDialog1('1')"><i class="fa-solid fa-circle-info"></i> View details</a>
+                                </div>
+                            </div>
+                            <div class="txt-con">
+                                <p id="product-name">Dinosaur Sweat</p>
+                                <p class="product-price">
+                                    Rs. 1200
+                                </p>
                             </div>
                         </div>
-                        <div class="txt-con">
-                            <p id="product-name">Dinosaur Sweat</p>
-                            <p class="product-price">
-                                Rs. 1200
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="img-con">
-                            <img src="https://i.ibb.co/PM3D1tT/sw5.png" alt="sw5" border="0">
-                            <div class="img-txt">
-                                <a onclick="openDialog2('2')"><i class="fa-solid fa-circle-info"></i> View details</a>
+                        <div class="box">
+                            <div class="img-con">
+                                <img src="https://i.ibb.co/PM3D1tT/sw5.png" alt="sw5" border="0">
+                                <div class="img-txt">
+                                    <a onclick="openDialog2('2')"><i class="fa-solid fa-circle-info"></i> View details</a>
+                                </div>
+                            </div>
+                            <div class="txt-con">
+                                <p id="product-name">Gekko Green Jacket</p>
+                                <p class="product-price">
+                                    Rs. 1200
+                                </p>
                             </div>
                         </div>
-                        <div class="txt-con">
-                            <p id="product-name">Gekko Green Jacket</p>
-                            <p class="product-price">
-                                Rs. 1200
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="img-con">
-                            <img src="https://i.ibb.co/4g8LqDP/sw2.png" alt="sw2" border="0">
-                            <div class="img-txt">
-                                <a onclick="openDialog3()"><i class="fa-solid fa-circle-info"></i> View details</a>
+                        <div class="box">
+                            <div class="img-con">
+                                <img src="https://i.ibb.co/4g8LqDP/sw2.png" alt="sw2" border="0">
+                                <div class="img-txt">
+                                    <a onclick="openDialog3()"><i class="fa-solid fa-circle-info"></i> View details</a>
+                                </div>
+                            </div>
+                            <div class="txt-con">
+                                <p id="product-name">Wxys Fleece</p>
+                                <p class="product-price">
+                                    Rs. 1200
+                                </p>
                             </div>
                         </div>
-                        <div class="txt-con">
-                            <p id="product-name">Wxys Fleece</p>
-                            <p class="product-price">
-                                Rs. 1200
-                            </p>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="img-con">
-                            <img src="https://i.ibb.co/rHt0096/s1.png" alt="s1" border="0">
-                            <div class="img-txt">
-                                <a onclick="openDialog4()"><i class="fa-solid fa-circle-info"></i> View details</a>
+                        <div class="box">
+                            <div class="img-con">
+                                <img src="https://i.ibb.co/rHt0096/s1.png" alt="s1" border="0">
+                                <div class="img-txt">
+                                    <a onclick="openDialog4()"><i class="fa-solid fa-circle-info"></i> View details</a>
+                                </div>
+                            </div>
+                            <div class="txt-con">
+                                <p id="product-name">FromTheMoon Sweat</p>
+                                <p class="product-price">
+                                    Rs. 1200
+                                </p>
                             </div>
                         </div>
-                        <div class="txt-con">
-                            <p id="product-name">FromTheMoon Sweat</p>
-                            <p class="product-price">
-                                Rs. 1200
-                            </p>
-                        </div>
-                    </div>
+                        
+                    <div class="swiper-button-prev" onclick="left()"></div>
+                    <div class="swiper-button-next" onclick="right()"></div>
+
                 </div>
 
-                <div class="sec">
+                <div class="sec swiper">
                     <div class="box">
                         <div class="img-con">
                             <img src="https://i.ibb.co/r67nYWf/s2.png" alt="s2" border="0">
@@ -329,6 +341,9 @@
                             </p>
                         </div>
                     </div>
+
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>  
                 </div>
 
             </div>
@@ -1097,6 +1112,7 @@
     </div>  <!--  MAIN CONTENT CLOSE      -->
     <script src="script.js"></script>
     <script src="buy.js"></script>
+    <script src="responsive.js"></script>
 
     <script>
         // Function to hide the overlay and reveal the content when all images are loaded
@@ -1122,6 +1138,9 @@
             // Call the showContent function to reveal the content
             showContent();
         });
+
+
+      
      </script>
 </body>
 
