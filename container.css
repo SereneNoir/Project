@@ -273,11 +273,12 @@
 
 .sec{
   height: 45vh;
-  width: 100%;
+  position: relative;
+  /* width: 1300px; */
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
   
 }
 .sec .box{
@@ -542,3 +543,9 @@ footer .footer-box  button:hover {
   align-items: center;
 
 }
+
+
+.res-text {
+  display: none;
+}
+
