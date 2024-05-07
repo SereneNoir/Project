@@ -176,7 +176,7 @@
 
     #new-arrivals {
         height: auto;
-        width: 450px;
+        width: auto;
     }
 
 
@@ -248,7 +248,7 @@
     }   
 
     .text h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
 }
@@ -294,5 +294,45 @@
     }
     .store-des p {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 768px) {
+    .name h1 {
+        font-size: 3rem;
+    }
+    .store-des h2 {
+        font-size: 2.3rem;
+    }
+    .store-des p {
+        font-size: 1.2rem;
+    }
+
+
+   
+
+    #storepage {
+        height: auto;
+    }
+    #store-display {
+        height: auto;
+    }
+    .container {
+        height: auto;
+    }
+}
+
+@media (max-width: 1025px) {
+    .hlinks {
+        margin-top: 2rem;
+    }
+    #storepage {
+        height: auto;
+    }
+    #store-display {
+        height: auto;
+    }
+    .container {
+        height: auto;
     }
 }
